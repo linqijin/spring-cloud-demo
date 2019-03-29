@@ -1,0 +1,7 @@
+<template name="4e187228"><navigator url="{{detailUrl}}" class="_a data-v-066cc2cf"><view class="_div data-v-066cc2cf itmuch-card"><view catchtap="handleProxy" class="_div data-v-066cc2cf thumb" data-eventid="{{'0'}}" data-comkey="{{$k}}"><image src="{{cover}}" class="_img data-v-066cc2cf img" mode="aspectFit"></image> <view class="_div data-v-066cc2cf tag origin" wx:if="{{share.isOriginal}}">
+        原创
+      </view><view wx:else class="_div data-v-066cc2cf tag reprint">
+        转载
+      </view></view> <view class="_div data-v-066cc2cf detail"><view class="_div data-v-066cc2cf mid"><view class="_div data-v-066cc2cf title">
+          {{share.title}}
+        </view> <view class="_div data-v-066cc2cf summary">{{summary}}</view></view> <view class="_div data-v-066cc2cf right"><view class="_div data-v-066cc2cf">{{share.price}}积分</view> <view class="_div data-v-066cc2cf right" wx:if="{{share.downloadUrl}}">下载</view><view class="_div data-v-066cc2cf right" wx:else>兑换</view></view></view></view></navigator></template>

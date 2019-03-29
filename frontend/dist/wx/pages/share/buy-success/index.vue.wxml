@@ -1,0 +1,1 @@
+<template name="7ce9a6ef"><view class="_div data-v-61233baa"><van-panel title="{{share.title}}" desc="{{share.downloadUrl}}" class="_van-panel data-v-61233baa"></van-panel> <van-button type="primary" size="large" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_van-button data-v-61233baa">复制下载地址</van-button></view></template>

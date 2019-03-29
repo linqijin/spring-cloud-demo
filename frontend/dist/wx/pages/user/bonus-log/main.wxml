@@ -1,0 +1,1 @@
+<import src="/pages/user/bonus-log/index.vue.wxml" /><template is="54bcb771" data="{{ ...$root['0'], $root }}"/>
