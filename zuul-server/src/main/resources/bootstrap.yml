@@ -1,0 +1,14 @@
+#management:
+#  port: 5567
+server:
+  port: 5566
+spring:
+  application:
+    name: zuul-server
+    index: ${random.long}
+  cloud:
+    config:
+      uri: http://${CONFIG_HOST:localhost}:${CONFIG_PORT:18888}
+      profile: ${PROFILE:dev}
+      label: master
+

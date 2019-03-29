@@ -1,0 +1,13 @@
+#management:
+#  port: 5567
+server:
+  port: 8002
+spring:
+  application:
+    name: demo-user-center
+    index: ${random.long}
+  cloud:
+    config:
+      uri: http://${CONFIG_HOST:localhost}:${CONFIG_PORT:18888}
+      profile: ${PROFILE:dev}
+      label: master
